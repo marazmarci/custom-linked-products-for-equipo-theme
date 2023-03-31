@@ -1,0 +1,30 @@
+div.custom-linked-products {
+    border-color: #ffb700;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 4px;
+    padding-top: 16px;
+    padding-left: 16px;
+}
+
+div.custom-linked-products table, div.custom-linked-products table tr, div.custom-linked-products table td {
+    border: none !important;
+}
+
+div.custom-linked-products table td.product-name {
+    font-weight: bold;
+}
+
+div.custom-linked-products table td.product-price {
+    font-weight: bold;
+    color: black;
+}
+
+div.custom-linked-products table td.product-price .product-price-without-tax {
+    color: #777777;
+}
+
+.add-to-cart {
+    position: relative;
+    height: 100%;
+}
