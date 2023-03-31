@@ -1,12 +1,12 @@
 [
     {
         "key": "group_641a128d7a7ea",
-        "title": "Kapcsolódó termékek TEST",
+        "title": "Kapcsolódó termékek",
         "fields": [
             {
                 "key": "field_641a128ed3890",
-                "label": "Kapcsolódó termékek TEST",
-                "name": "kapcsolodo_termekek_test",
+                "label": "Kapcsolódó termékek",
+                "name": "kapcsolodo_termekek",
                 "aria-label": "",
                 "type": "repeater",
                 "instructions": "",
@@ -27,8 +27,8 @@
                 "sub_fields": [
                     {
                         "key": "field_641a12bcd3891",
-                        "label": "Kapcsolódó termék TEST",
-                        "name": "kapcsolodo_termek_test",
+                        "label": "Kapcsolódó termék",
+                        "name": "kapcsolodo_termek",
                         "aria-label": "",
                         "type": "text",
                         "instructions": "",
