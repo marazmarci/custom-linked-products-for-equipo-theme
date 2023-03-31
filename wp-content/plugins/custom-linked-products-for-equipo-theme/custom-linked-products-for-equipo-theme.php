@@ -45,8 +45,8 @@ function _equipo_enovathemes_custom_linked_products__get_section_title() {
 // Add our own custom linked products section
 add_action('woocommerce_after_single_product_summary', 'equipo_enovathemes_custom_linked_products', 5);
 function equipo_enovathemes_custom_linked_products() {
-    $fieldName = 'kapcsolodo_termekek_test';
-    $subFieldName = 'kapcsolodo_termek_test';
+    $fieldName = 'kapcsolodo_termekek';
+    $subFieldName = 'kapcsolodo_termek';
 
     if (have_rows($fieldName)) {
         $currentProduct = wc_get_product(get_the_ID());
