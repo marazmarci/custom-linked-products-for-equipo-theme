@@ -65,7 +65,7 @@ function equipo_enovathemes_custom_linked_products() {
         $tickSvg = equipo_enovathemes_svg_icon('tick.svg');
 
         while (have_rows($fieldName)) : the_row();
-            $sku = get_sub_field($subFieldName);
+            $sku = trim(get_sub_field($subFieldName));
             _equipo_enovathemes_custom_linked_products__display_linked_product($sku, $currentProductUrl, $tickSvg);
         endwhile;
 
