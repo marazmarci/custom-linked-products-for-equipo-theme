@@ -80,6 +80,9 @@ function equipo_enovathemes_custom_linked_products() {
 function _equipo_enovathemes_custom_linked_products__display_linked_product($sku, $currentProductUrl, $tickSvg) {
     $productId = wc_get_product_id_by_sku($sku);
     $product = wc_get_product($productId);
+    if (!$product) {
+        return;
+    }
     $productName = $product->get_name();
     $productUrl = $product->get_permalink();
     $productPriceIncludingTax = wc_price(wc_get_price_including_tax($product));
