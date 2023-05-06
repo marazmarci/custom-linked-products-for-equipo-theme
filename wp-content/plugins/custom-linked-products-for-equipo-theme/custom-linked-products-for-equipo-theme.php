@@ -123,11 +123,13 @@ function equipo_enovathemes_custom_linked_products__filter_add_to_cart_button_fo
 
 function _equipo_enovathemes_custom_linked_products__display_add_to_cart_button($productToAddToCart, $currentProductUrl) {
     global $product;
+    $globalProductBackup = $product;
     $product = $productToAddToCart;
     global $equipo_enovathemes_custom_linked_products__filter_add_to_cart_button_form_action_override;
     $equipo_enovathemes_custom_linked_products__filter_add_to_cart_button_form_action_override = $currentProductUrl;
     woocommerce_simple_add_to_cart();
     $equipo_enovathemes_custom_linked_products__filter_add_to_cart_button_form_action_override = NULL;
+    $product = $globalProductBackup;
 }
 
 add_action('wp_enqueue_scripts', 'equipo_enovathemes_custom_linked_products__setup_styles');
