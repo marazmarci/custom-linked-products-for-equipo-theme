@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Custom linked products for Equipo theme
  * Description: Removes the built-in Frequently Bought Together box of the Equipo theme and shows a custom (better :P) one. Requires the Advanced Custom Fields plugin.
- * Version: 1.0
+ * Version: 1.2
  * Tested up to: ?
  * Author: marci
  * Requires at least: 6.0
